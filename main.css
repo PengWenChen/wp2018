@@ -1,0 +1,180 @@
+
+
+body {
+      background-image:url("./pic/chair.jpg");
+          background-repeat: no-repeat;
+              background-position: center;
+                  background-size: cover;
+                      background-attachment: fixed;
+                          /* margin:0 auto; */
+                    }
+
+                    h1{
+                          font-family:monospace;
+                              font-weight: bold;
+                                  font-size: 100px;
+                                }
+
+
+                                .nav{
+                                      display: inline;
+                                          font-family: monospace;
+                                              font-size: 20px;
+                                                  /* text-align: center; */
+                                            }
+
+
+                                            .material-icons.md-24 { 
+                                                  font-size: 24px; 
+                                                      text-align: center;
+                                                    }
+
+                                                    .section_1{
+                                                          position: absolute;
+                                                              margin-top: 100px;
+                                                                  margin-left: 100px;
+                                                                      /* margin-bottom: 0px; */
+                                                                      width: 300px;
+                                                                          height: 370px;
+                                                                              /* background-color: #999; */
+                                                                        }
+
+                                                                        #profile_button{
+                                                                              position: absolute;
+                                                                                  margin-left: 0px;
+                                                                                }
+
+                                                                                #profile{
+                                                                                      margin-left:30px;
+                                                                                    }
+
+                                                                                    #pic1_block{
+                                                                                          background-color:white;
+                                                                                              width:200px; 
+                                                                                                  height:100px; 
+                                                                                                      position:absolute; 
+                                                                                                          bottom:130px; 
+                                                                                                        }
+                                                                                                        #pic1{
+                                                                                                              background-image:url("./pic/desk.jpg");
+                                                                                                                  width:150px; 
+                                                                                                                      height:100px; 
+                                                                                                                          background-size: contain;
+                                                                                                                              position:absolute; 
+                                                                                                                                  bottom:0px; 
+                                                                                                                                }
+                                                                                                                                #pic1_word{
+                                                                                                                                      color:white;
+                                                                                                                                          position: absolute;
+                                                                                                                                              left:15%;
+                                                                                                                                                  bottom:15%;
+                                                                                                                                                }
+                                                                                                                                                #arrow1{
+                                                                                                                                                      position: absolute;
+                                                                                                                                                          vertical-align: middle;
+                                                                                                                                                              left: 80%;
+                                                                                                                                                                  bottom:40%;
+                                                                                                                                                                }
+
+                                                                                                                                                                #arise{
+                                                                                                                                                                      position:absolute; 
+                                                                                                                                                                          top:180px; 
+                                                                                                                                                                        }
+
+                                                                                                                                                                        li{
+                                                                                                                                                                              position: absolute;
+                                                                                                                                                                                  color:orangered;
+                                                                                                                                                                                      font-size:20px;
+                                                                                                                                                                                          /* left:5px; */
+                                                                                                                                                                                          bottom:0px;
+                                                                                                                                                                                        }
+
+                                                                                                                                                                                        #li_1{
+                                                                                                                                                                                              color:orangered;
+                                                                                                                                                                                                  left:5px;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                #li_2{
+                                                                                                                                                                                                      color:white;
+                                                                                                                                                                                                          left:20px;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        #li_3{
+                                                                                                                                                                                                              color:white;
+                                                                                                                                                                                                                  left:35px;
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                .section_2{
+                                                                                                                                                                                                                      position: absolute;
+                                                                                                                                                                                                                          margin-top: 100px;
+                                                                                                                                                                                                                              margin-left: 450px;
+                                                                                                                                                                                                                                  /* margin-bottom: 0px; */
+                                                                                                                                                                                                                                  width: 300px;
+                                                                                                                                                                                                                                      height: 370px;
+                                                                                                                                                                                                                                          /* background-color:pink; */
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    #search_button{
+                                                                                                                                                                                                                                          position: absolute;
+                                                                                                                                                                                                                                              margin-left: 10px;
+                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                            #instruction_1{
+                                                                                                                                                                                                                                                  position:absolute; 
+                                                                                                                                                                                                                                                      left:0px;
+                                                                                                                                                                                                                                                          bottom:23px; 
+                                                                                                                                                                                                                                                              font-size:15px;
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                            #instruction_2{
+                                                                                                                                                                                                                                                                  position:absolute; 
+                                                                                                                                                                                                                                                                      margin-left:70px;
+                                                                                                                                                                                                                                                                          bottom:23px; 
+                                                                                                                                                                                                                                                                              font-size:15px;
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                            .section_3{
+                                                                                                                                                                                                                                                                                  position: absolute;
+                                                                                                                                                                                                                                                                                      margin-top: 100px;
+                                                                                                                                                                                                                                                                                          margin-left: 800px;
+                                                                                                                                                                                                                                                                                              width: 470px;
+                                                                                                                                                                                                                                                                                                  height: 370px;
+                                                                                                                                                                                                                                                                                                      /* background-color:blue; */
+                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                #reorder_button{
+                                                                                                                                                                                                                                                                                                      position: absolute;
+                                                                                                                                                                                                                                                                                                          margin-left:50px;
+                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                        #menu{
+                                                                                                                                                                                                                                                                                                              margin-left:330px;
+                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                            #pic2_block{
+                                                                                                                                                                                                                                                                                                                  background-color: black;
+                                                                                                                                                                                                                                                                                                                      width:330px; 
+                                                                                                                                                                                                                                                                                                                          height:150px;     
+                                                                                                                                                                                                                                                                                                                              position:absolute; 
+                                                                                                                                                                                                                                                                                                                                  right:0px;
+                                                                                                                                                                                                                                                                                                                                      bottom:0px; 
+                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                    #pic2{
+                                                                                                                                                                                                                                                                                                                                          background-image:url("./pic/chair_desk.jpg");
+                                                                                                                                                                                                                                                                                                                                              width:250px; 
+                                                                                                                                                                                                                                                                                                                                                  height:150px; 
+                                                                                                                                                                                                                                                                                                                                                      background-size: contain;
+                                                                                                                                                                                                                                                                                                                                                          position:absolute; 
+                                                                                                                                                                                                                                                                                                                                                              /* right:0px; */
+                                                                                                                                                                                                                                                                                                                                                              bottom:0px; 
+                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                            #pic2_word{
+                                                                                                                                                                                                                                                                                                                                                                  color:black;
+                                                                                                                                                                                                                                                                                                                                                                      position: absolute;
+                                                                                                                                                                                                                                                                                                                                                                          left:15%;
+                                                                                                                                                                                                                                                                                                                                                                              bottom:25%;
+                                                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                                                            #arrow2{
+                                                                                                                                                                                                                                                                                                                                                                                  position: absolute;
+                                                                                                                                                                                                                                                                                                                                                                                      vertical-align: middle;
+                                                                                                                                                                                                                                                                                                                                                                                          left: 85%;
+                                                                                                                                                                                                                                                                                                                                                                                              bottom:40%;
+                                                                                                                                                                                                                                                                                                                                                                                                  color:white;
+                                                                                                                                                                                                                                                                                                                                                                                                }
