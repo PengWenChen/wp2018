@@ -1,0 +1,284 @@
+
+
+/* body {
+    background-image:url("./pic/chair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+article{
+    width:100%;
+    margin:auto;
+    position: relative;
+}
+
+figure{
+    width:100%;
+    margin: 0;
+    /* padding: 350px 0 0 0; */
+    position: absolute;
+    left:0;
+    bottom:0px;
+    overflow: hidden;
+}
+h1{
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+.nav:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+p{
+    display: inline;
+    font-family: monospace;
+    font-size: 20px;  
+}
+
+
+.material-icons.md-24 { 
+    font-size: 24px; 
+    text-align: center;
+}
+
+.section_1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+
+    /* margin-bottom: 0px; */
+    width: 300px;
+    height: 390px;
+    /* background-color: #999; */
+}
+
+#profile_button{
+    position: absolute;
+    margin-left: 0px;
+}
+
+#profile{
+    margin-left:30px;
+}
+
+#pic1_block{
+    background-color:white;
+    width:200px; 
+    height:100px; 
+    position:absolute; 
+    bottom:130px; 
+}
+#pic1{
+    background-image:url("./pic/desk.jpg");
+    width:150px; 
+    height:100px; 
+    background-size: contain;
+    position:absolute; 
+    bottom:0px; 
+}
+.pic1 {
+    color:rgba(236, 103, 103, 0.842);
+    position: relative;
+    left:15%;
+    top:50%;
+}
+#arrow1{
+    position: absolute;
+    vertical-align: middle;
+    left: 80%;
+    bottom:40%;
+    cursor: pointer;
+}
+
+#arise{
+    position:absolute; 
+    top:180px; 
+}
+
+.li{
+    position: absolute;
+    color:orangered;
+    font-size:20px;
+
+    bottom:0px;
+    cursor: pointer;
+}
+
+#li_1{
+    color:orangered;
+    left:5px;
+}
+#li_2{
+    color:white;
+    left:20px;
+}
+#li_3{
+    color:white;
+    left:35px;
+}
+#li_4{
+    color:white;
+    left:50px;
+}
+
+.section_2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    /* margin-bottom: 0px; */
+    width: 300px;
+    height: 390px;
+    /* background-color:pink; */
+}
+
+#search_button{
+    position: absolute;
+    margin-left: 10px;
+}
+
+#instruction_1{
+    position:absolute; 
+    left:0px;
+    bottom:23px; 
+    font-size:15px;
+}
+#instruction_2{
+    position:absolute; 
+    margin-left:70px;
+    bottom:23px; 
+    font-size:15px;
+}
+.section_3{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+    width: 470px;
+    height: 390px;
+    /* background-color:blue; */
+}
+
+#reorder_button{
+    position: absolute;
+    margin-left:50px;
+}
+
+#menu{
+    margin-left:330px;
+}
+
+#pic2_block{
+    background-color: black;
+    width:330px; 
+    height:150px;     
+    position:absolute; 
+    right:0px;
+    bottom:0px; 
+}
+#pic2{
+    background-image:url("./pic/chair_desk.jpg");
+    width:250px; 
+    height:150px; 
+    background-size: contain;
+    position:absolute; 
+    /* right:0px; */
+    bottom:0px; 
+}
+.pic2 {
+    color:rgba(247, 225, 101, 0.856);
+    position: relative;
+    left:15%;
+    top:50%;
+    font-size: 30px; 
+}
+
+#arrow2{
+    position: absolute;
+    vertical-align: middle;
+    left: 85%;
+    bottom:40%;
+    color:white;
+    cursor: pointer;
+}
+
+
+#slider {
+    width:150px; 
+    height:100px; 
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 750px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width:150px; 
+    height:100px; 
+    background-size: cover;
+}
+
+/* helper css, since we don't have images */
+.slide1 {background-image:url("./pic/chair_desk.jpg");}
+.slide2 {background-image:url("./pic/chair.jpg");}
+.slide3 {background-image:url("./pic/desk.jpg");}
+.slide4 {background-image:url("./pic/moon.jpg");}
+/* .slide5 {background: pink;} */
+
+
+#slider_2 {
+    width:250px; 
+    height:150px; 
+    overflow: hidden;
+}
+
+#slider_2 .slides_2 {
+    display: block;
+    width:1250px; 
+    height:150px; 
+    margin: 0;
+    padding: 0;
+}
+
+#slider_2 .slide_2 {
+    float: left;
+    list-style-type: none;
+    width:250px; 
+    height:150px; 
+    background-size: cover;
+}
+/*  */
+#slider_bg {
+    width:1300px; 
+    height:700px; 
+    overflow: hidden;
+}
+
+#slider_bg .slides_bg {
+    display: block;
+    width:6500px; 
+    height:700px; 
+    margin: 0;
+    padding: 0;
+}
+
+#slider_bg .slide_bg {
+    float: left;
+    list-style-type: none;
+    width:1300px; 
+    height:700px; 
+    background-size: cover;
+    background-position: center;
+}
