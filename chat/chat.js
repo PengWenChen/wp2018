@@ -7,10 +7,11 @@ $(document).ready(function(){
   }
 
   // refresh every second
-  setInterval( 
+  //setInterval( 
   function(){
     $.post('chat.php', data => $("#content").html(data))
-  }, 1000)
+  }
+  //, 1000)
 
   $('button[type=submit]').click(e => {
     e.preventDefault()
