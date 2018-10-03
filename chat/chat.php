@@ -1,5 +1,5 @@
 <?php
-$text = $_POST["text"];
+$text = $_GET["text"];
 if ($text) {
   # important for security issue
   # try to disable this line to see the difference
