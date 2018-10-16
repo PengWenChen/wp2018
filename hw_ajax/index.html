@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTTP & Ajax</title>
+  </head>
+  <body>
+    <button id="btn_all" type="submit">list all student</button>
+    <div id="content"></div>
+    
+    <form id="ajax-form-search" action="ajax_s.php" method="get">
+      student ID: <input type="text" name="ID"><br>
+      <!-- last name: <input type="text" name="lname"><br> -->
+      <button type="submit">search specific student</button>
+      <h1 id="ajax-output-search"></h1>
+    </form>
+
+    <form id="ajax-form-add" action="ajax_a.php" method="get">
+      student ID: <input type="text" name="ID"><br>
+      student name: <input type="text" name="name"><br>
+      <button type="submit">add specific student</button>
+      <h1 id="ajax-output-add"></h1>
+    </form>
+
+    <form id="ajax-form-delete" action="ajax_d.php" method="get">
+      student ID: <input type="text" name="ID"><br>
+      <button type="submit">delete specific student</button>
+      <h1 id="ajax-output-delet"></h1>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
