@@ -1,13 +1,17 @@
 
 $('#btn_all').click((event)=>{
   event.preventDefault();
-  $.getJSON( "students.json", function( data ) {
-    var items = [];
-    $.each( data, function( key, val ) {
-      items.push(  key+": "+ val + "</br>");
-    });
-   $("#content").html(items);
-  });
+  // $.getJSON( "students.json", function( data ) {
+  //   var items = [];
+  //   $.each( data, function( key, val ) {
+  //     items.push(  key+": "+ val + "</br>");
+  //   });
+  //  $("#content").html(items);
+  // });
+  $.get('show.php', {
+  }, (data) => {
+    $('#content').html(data);
+  });  
 });
 
 
@@ -26,7 +30,7 @@ $('#ajax-form-add button[type=submit]').click((event) => {
     ID: $('#ajax-form-add input[name=ID]').val(),
     name: $('#ajax-form-add input[name=name]').val(),
   }, (data) => {
-    $('#content').html(data);
+    $('#ajax-output-add').html(data);
   })
 })
 
@@ -35,7 +39,7 @@ $('#ajax-form-delete button[type=submit]').click((event) => {
   $.get('ajax_d.php', {
     ID: $('#ajax-form-delete input[name=ID]').val(),
   }, (data) => {
-    $('#content').html(data);
+    $('#ajax-output-delete').html(data);
   })
 })
 
